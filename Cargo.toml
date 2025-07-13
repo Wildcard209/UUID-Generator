@@ -1,0 +1,31 @@
+[package]
+name = "uuid_generator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A pure Rust UUID generator library with no external dependencies"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/uuid-generator"
+keywords = ["uuid", "identifier", "generator", "ffi"]
+categories = ["data-structures", "no-std"]
+
+[lib]
+name = "uuid_generator"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+jni = { version = "0.21", optional = true }
+
+[features]
+default = []
+jni = ["dep:jni"]
+
+[dev-dependencies]
+
+[[example]]
+name = "basic_usage"
+path = "examples/basic_usage.rs"
+
+[[example]]
+name = "show_process"
+path = "examples/show_process.rs"

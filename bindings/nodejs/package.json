@@ -1,0 +1,28 @@
+{
+  "name": "uuid-generator-bindings",
+  "version": "1.0.0",
+  "description": "Node.js bindings for the Rust UUID Generator library",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js",
+    "build": "echo 'Build the Rust library with: cargo build --release'"
+  },
+  "keywords": [
+    "uuid",
+    "guid",
+    "rfc4122",
+    "rfc9562",
+    "rust",
+    "ffi",
+    "cryptographic"
+  ],
+  "author": "UUID Generator Project",
+  "license": "MIT OR Apache-2.0",
+  "dependencies": {
+    "ffi-rs": "^1.2.15",
+    "koffi": "^2.12.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

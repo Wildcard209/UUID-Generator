@@ -1,0 +1,215 @@
+# Rust
+/target
+Cargo.lock
+
+# Build artifacts
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# IDE and Editor files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#############
+# Language-specific build artifacts and dependencies
+#############
+
+# Go bindings
+bindings/go/go.sum
+bindings/go/uuid_generator
+bindings/go/*.exe
+
+# Python bindings
+bindings/python/__pycache__/
+bindings/python/*.pyc
+bindings/python/*.pyo
+bindings/python/*.pyd
+bindings/python/.Python
+bindings/python/env/
+bindings/python/venv/
+bindings/python/.env
+bindings/python/.venv
+bindings/python/pip-log.txt
+bindings/python/pip-delete-this-directory.txt
+bindings/python/.pytest_cache/
+bindings/python/*.egg-info/
+bindings/python/dist/
+bindings/python/build/
+
+# Node.js bindings
+bindings/nodejs/node_modules/
+bindings/nodejs/npm-debug.log*
+bindings/nodejs/yarn-debug.log*
+bindings/nodejs/yarn-error.log*
+bindings/nodejs/.npm
+bindings/nodejs/.eslintcache
+bindings/nodejs/.nyc_output
+bindings/nodejs/coverage/
+bindings/nodejs/.grunt
+bindings/nodejs/bower_components
+bindings/nodejs/.lock-wscript
+bindings/nodejs/build/Release
+bindings/nodejs/.node_repl_history
+bindings/nodejs/*.tgz
+bindings/nodejs/.yarn-integrity
+bindings/nodejs/.env
+bindings/nodejs/.env.local
+bindings/nodejs/.env.development.local
+bindings/nodejs/.env.test.local
+bindings/nodejs/.env.production.local
+bindings/nodejs/package-lock.json
+
+# C# bindings
+bindings/csharp/bin/
+bindings/csharp/obj/
+bindings/csharp/*.user
+bindings/csharp/*.suo
+bindings/csharp/*.sln.docstates
+bindings/csharp/[Dd]ebug/
+bindings/csharp/[Rr]elease/
+bindings/csharp/x64/
+bindings/csharp/x86/
+bindings/csharp/[Bb]in/
+bindings/csharp/[Oo]bj/
+bindings/csharp/.vs/
+bindings/csharp/packages/
+bindings/csharp/project.lock.json
+bindings/csharp/project.fragment.lock.json
+bindings/csharp/artifacts/
+bindings/csharp/*.nuget.props
+bindings/csharp/*.nuget.targets
+bindings/csharp/TestResults/
+
+# Java bindings
+bindings/java/target/
+bindings/java/.mvn/
+bindings/java/mvnw
+bindings/java/mvnw.cmd
+bindings/java/pom.xml.tag
+bindings/java/pom.xml.releaseBackup
+bindings/java/pom.xml.versionsBackup
+bindings/java/pom.xml.next
+bindings/java/release.properties
+bindings/java/dependency-reduced-pom.xml
+bindings/java/buildNumber.properties
+bindings/java/.mvn/timing.properties
+bindings/java/.mvn/wrapper/maven-wrapper.jar
+bindings/java/*.jar
+bindings/java/*.war
+bindings/java/*.ear
+bindings/java/*.zip
+bindings/java/*.tar.gz
+bindings/java/*.rar
+bindings/java/hs_err_pid*
+bindings/java/.settings/
+bindings/java/.project
+bindings/java/.classpath
+bindings/java/.factorypath
+
+# C/C++ bindings
+bindings/c/*.o
+bindings/c/*.obj
+bindings/c/*.exe
+bindings/c/*.out
+bindings/c/*.app
+bindings/c/*.dSYM/
+bindings/c/*.su
+bindings/c/*.idb
+bindings/c/*.pdb
+bindings/c/example
+bindings/c/test
+bindings/c/main
+
+# CMake (if used)
+bindings/c/CMakeCache.txt
+bindings/c/CMakeFiles/
+bindings/c/CMakeScripts/
+bindings/c/Testing/
+bindings/c/Makefile
+bindings/c/cmake_install.cmake
+bindings/c/install_manifest.txt
+bindings/c/compile_commands.json
+bindings/c/CTestTestfile.cmake
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+.#*
+\#*#
+*.orig
+*.rej
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Visual Studio Code
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Vim
+*.swp
+*.swo
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Test coverage reports
+coverage/
+*.lcov
+*.gcov
+*.gcda
+*.gcno
+
+# Documentation build artifacts
+docs/_build/
+docs/build/
+site/
